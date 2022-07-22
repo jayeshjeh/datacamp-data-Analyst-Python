@@ -5,3 +5,4 @@
 # # Adapt for loop
 # for lab, row in cars.iterrows() :
 #     print(lab + ": " + str(row['cars_per_cap']))
+
