@@ -1,7 +1,7 @@
 #Modify the code to use relplot() instead of scatterplot().
 # Change to use relplot() instead of scatterplot()
 sns.relplot(x="absences", y="G3", 
-                data=student_data)
+                data=student_data,kind="scatter")
 
 # Show plot
 plt.show()
